@@ -1,0 +1,10 @@
+{
+    "name": "SublimeQuarto",
+    "details": "https://github.com/<your_username>/SublimeQuarto",
+    "releases": [
+        {
+            "sublime_text": ">=3000",
+            "tags": true
+        }
+    ]
+}

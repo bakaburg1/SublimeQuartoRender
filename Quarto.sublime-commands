@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Quarto: Render Document",
+        "command": "quarto_render"
+    }
+]

@@ -10,23 +10,20 @@ SublimeQuartoRender is a Sublime Text package that provides easy rendering of Qu
 
 ## Installation
 
-### Via Package Control (Recommended)
+<!-- ### Via Package Control (Recommended)
 
 1. Open Sublime Text
 2. Press `Cmd+Shift+P` (macOS) or `Ctrl+Shift+P` (Windows/Linux) to open the Command Palette
 3. Type `Package Control: Install Package` and press Enter
-4. Search for "SublimeQuartoRender" and press Enter to install
+4. Search for "SublimeQuartoRender" and press Enter to install 
 
-### Manual Installation
+### Manual Installation-->
 
 1. Navigate to your Sublime Text Packages directory:
-   - Windows: `%APPDATA%\Sublime Text\Packages`
-   - macOS: `~/Library/Application Support/Sublime Text/Packages`
-   - Linux: `~/.config/sublime-text/Packages`
-2. Clone this repository:
-   ```
-   git clone https://github.com/bakaburg1/SublimeQuartoRender.git
-   ```
+   - Windows: `%APPDATA%\Sublime Text\Packages/User`
+   - macOS: `~/Library/Application Support/Sublime Text/Packages/User`
+   - Linux: `~/.config/sublime-text/Packages/User`
+2. Download the following file in the folder: quarto_render.py, Quarto.sublime-commands
 
 ## Usage
 

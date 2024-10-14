@@ -23,7 +23,7 @@ SublimeQuartoRender is a Sublime Text package that provides easy rendering of Qu
    - Windows: `%APPDATA%\Sublime Text\Packages/User`
    - macOS: `~/Library/Application Support/Sublime Text/Packages/User`
    - Linux: `~/.config/sublime-text/Packages/User`
-2. Download the following file in the folder: quarto_render.py, Quarto.sublime-commands
+2. Download the following file in the folder: `quarto_render.py`, `Quarto.sublime-commands`
 
 ## Usage
 
@@ -36,12 +36,10 @@ SublimeQuartoRender is a Sublime Text package that provides easy rendering of Qu
 - Sublime Text 3 or 4
 - Quarto CLI installed and accessible in your system PATH
 
-## Configuration
-
-By default, SublimeQuartoRender uses `Ctrl+Alt+Q` as the key binding for rendering. To change this:
+## Key Binding
 
 1. Go to `Preferences > Key Bindings`
-2. Add the following to your User key bindings, replacing `<your_preferred_key_binding>` with your desired key combination:
+2. Add the following to your User key bindings, replacing `<your_preferred_key_binding>` e.g. `ctrl/cmd + alt + Q`, with your desired key combination:
 
 ```json
 { "keys": ["<your_preferred_key_binding>"], "command": "quarto_render" }
